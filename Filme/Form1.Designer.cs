@@ -40,6 +40,7 @@
             this.txt_Nome = new System.Windows.Forms.TextBox();
             this.label_lancamento = new System.Windows.Forms.Label();
             this.groupBox_situacao = new System.Windows.Forms.GroupBox();
+            this.rbnAssistindo = new System.Windows.Forms.RadioButton();
             this.rbnAssistido = new System.Windows.Forms.RadioButton();
             this.rbnDesejo = new System.Windows.Forms.RadioButton();
             this.listViewCadastro = new System.Windows.Forms.ListView();
@@ -50,8 +51,8 @@
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.rbnAssistindo = new System.Windows.Forms.RadioButton();
+            this.btn_Salvar = new System.Windows.Forms.Button();
+            this.btn_Sair = new System.Windows.Forms.Button();
             this.groupBox_Tipo.SuspendLayout();
             this.groupBox_situacao.SuspendLayout();
             this.SuspendLayout();
@@ -59,7 +60,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkOrange;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkViolet;
             this.label1.Location = new System.Drawing.Point(187, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(446, 37);
@@ -68,12 +71,14 @@
             // 
             // groupBox_Tipo
             // 
+            this.groupBox_Tipo.AutoSize = true;
             this.groupBox_Tipo.Controls.Add(this.rbnFilme);
             this.groupBox_Tipo.Controls.Add(this.rbnSerie);
             this.groupBox_Tipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox_Tipo.ForeColor = System.Drawing.Color.DarkOrange;
             this.groupBox_Tipo.Location = new System.Drawing.Point(12, 107);
             this.groupBox_Tipo.Name = "groupBox_Tipo";
-            this.groupBox_Tipo.Size = new System.Drawing.Size(176, 65);
+            this.groupBox_Tipo.Size = new System.Drawing.Size(176, 81);
             this.groupBox_Tipo.TabIndex = 1;
             this.groupBox_Tipo.TabStop = false;
             this.groupBox_Tipo.Text = "Tipo:";
@@ -81,6 +86,7 @@
             // rbnFilme
             // 
             this.rbnFilme.AutoSize = true;
+            this.rbnFilme.ForeColor = System.Drawing.Color.DarkOrange;
             this.rbnFilme.Location = new System.Drawing.Point(6, 32);
             this.rbnFilme.Name = "rbnFilme";
             this.rbnFilme.Size = new System.Drawing.Size(65, 24);
@@ -93,6 +99,7 @@
             // rbnSerie
             // 
             this.rbnSerie.AutoSize = true;
+            this.rbnSerie.ForeColor = System.Drawing.Color.DarkOrange;
             this.rbnSerie.Location = new System.Drawing.Point(106, 32);
             this.rbnSerie.Name = "rbnSerie";
             this.rbnSerie.Size = new System.Drawing.Size(64, 24);
@@ -106,6 +113,7 @@
             // 
             this.label_genero.AutoSize = true;
             this.label_genero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_genero.ForeColor = System.Drawing.Color.DarkOrange;
             this.label_genero.Location = new System.Drawing.Point(190, 207);
             this.label_genero.Name = "label_genero";
             this.label_genero.Size = new System.Drawing.Size(67, 20);
@@ -114,6 +122,7 @@
             // 
             // txt_Autor
             // 
+            this.txt_Autor.BackColor = System.Drawing.Color.DarkOrange;
             this.txt_Autor.Location = new System.Drawing.Point(314, 170);
             this.txt_Autor.Name = "txt_Autor";
             this.txt_Autor.Size = new System.Drawing.Size(258, 20);
@@ -123,6 +132,7 @@
             // 
             this.label_Nome.AutoSize = true;
             this.label_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Nome.ForeColor = System.Drawing.Color.DarkOrange;
             this.label_Nome.Location = new System.Drawing.Point(190, 276);
             this.label_Nome.Name = "label_Nome";
             this.label_Nome.Size = new System.Drawing.Size(55, 20);
@@ -131,6 +141,7 @@
             // 
             // txt_genero
             // 
+            this.txt_genero.BackColor = System.Drawing.Color.DarkOrange;
             this.txt_genero.Location = new System.Drawing.Point(314, 209);
             this.txt_genero.Name = "txt_genero";
             this.txt_genero.Size = new System.Drawing.Size(258, 20);
@@ -140,6 +151,7 @@
             // 
             this.label_Autor.AutoSize = true;
             this.label_Autor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Autor.ForeColor = System.Drawing.Color.DarkOrange;
             this.label_Autor.Location = new System.Drawing.Point(190, 168);
             this.label_Autor.Name = "label_Autor";
             this.label_Autor.Size = new System.Drawing.Size(52, 20);
@@ -148,6 +160,7 @@
             // 
             // txt_Nome
             // 
+            this.txt_Nome.BackColor = System.Drawing.Color.DarkOrange;
             this.txt_Nome.Location = new System.Drawing.Point(314, 278);
             this.txt_Nome.Name = "txt_Nome";
             this.txt_Nome.Size = new System.Drawing.Size(258, 20);
@@ -157,6 +170,7 @@
             // 
             this.label_lancamento.AutoSize = true;
             this.label_lancamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_lancamento.ForeColor = System.Drawing.Color.DarkOrange;
             this.label_lancamento.Location = new System.Drawing.Point(190, 242);
             this.label_lancamento.Name = "label_lancamento";
             this.label_lancamento.Size = new System.Drawing.Size(102, 20);
@@ -165,20 +179,36 @@
             // 
             // groupBox_situacao
             // 
+            this.groupBox_situacao.AutoSize = true;
             this.groupBox_situacao.Controls.Add(this.rbnAssistindo);
             this.groupBox_situacao.Controls.Add(this.rbnAssistido);
             this.groupBox_situacao.Controls.Add(this.rbnDesejo);
             this.groupBox_situacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox_situacao.ForeColor = System.Drawing.Color.DarkOrange;
             this.groupBox_situacao.Location = new System.Drawing.Point(588, 107);
             this.groupBox_situacao.Name = "groupBox_situacao";
-            this.groupBox_situacao.Size = new System.Drawing.Size(200, 104);
+            this.groupBox_situacao.Size = new System.Drawing.Size(200, 112);
             this.groupBox_situacao.TabIndex = 10;
             this.groupBox_situacao.TabStop = false;
             this.groupBox_situacao.Text = "Situação";
             // 
+            // rbnAssistindo
+            // 
+            this.rbnAssistindo.AutoSize = true;
+            this.rbnAssistindo.ForeColor = System.Drawing.Color.DarkOrange;
+            this.rbnAssistindo.Location = new System.Drawing.Point(48, 63);
+            this.rbnAssistindo.Name = "rbnAssistindo";
+            this.rbnAssistindo.Size = new System.Drawing.Size(100, 24);
+            this.rbnAssistindo.TabIndex = 3;
+            this.rbnAssistindo.TabStop = true;
+            this.rbnAssistindo.Text = "Assistindo";
+            this.rbnAssistindo.UseVisualStyleBackColor = true;
+            this.rbnAssistindo.CheckedChanged += new System.EventHandler(this.rbnAssistido_CheckedChanged);
+            // 
             // rbnAssistido
             // 
             this.rbnAssistido.AutoSize = true;
+            this.rbnAssistido.ForeColor = System.Drawing.Color.DarkOrange;
             this.rbnAssistido.Location = new System.Drawing.Point(6, 32);
             this.rbnAssistido.Name = "rbnAssistido";
             this.rbnAssistido.Size = new System.Drawing.Size(91, 24);
@@ -191,6 +221,7 @@
             // rbnDesejo
             // 
             this.rbnDesejo.AutoSize = true;
+            this.rbnDesejo.ForeColor = System.Drawing.Color.DarkOrange;
             this.rbnDesejo.Location = new System.Drawing.Point(117, 32);
             this.rbnDesejo.Name = "rbnDesejo";
             this.rbnDesejo.Size = new System.Drawing.Size(77, 24);
@@ -202,6 +233,7 @@
             // 
             // listViewCadastro
             // 
+            this.listViewCadastro.BackColor = System.Drawing.Color.DarkOrange;
             this.listViewCadastro.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
@@ -209,10 +241,11 @@
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6});
+            this.listViewCadastro.ForeColor = System.Drawing.Color.DarkViolet;
             this.listViewCadastro.HideSelection = false;
             this.listViewCadastro.Location = new System.Drawing.Point(44, 324);
             this.listViewCadastro.Name = "listViewCadastro";
-            this.listViewCadastro.Size = new System.Drawing.Size(567, 114);
+            this.listViewCadastro.Size = new System.Drawing.Size(600, 114);
             this.listViewCadastro.TabIndex = 11;
             this.listViewCadastro.UseCompatibleStateImageBehavior = false;
             this.listViewCadastro.View = System.Windows.Forms.View.Details;
@@ -220,10 +253,12 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "Autor";
+            this.columnHeader1.Width = 100;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Text = "Gênero";
+            this.columnHeader2.Width = 100;
             // 
             // columnHeader3
             // 
@@ -233,53 +268,60 @@
             // columnHeader4
             // 
             this.columnHeader4.Text = "Nome";
+            this.columnHeader4.Width = 100;
             // 
             // columnHeader5
             // 
             this.columnHeader5.Text = "Situação";
-            this.columnHeader5.Width = 114;
+            this.columnHeader5.Width = 100;
             // 
             // columnHeader6
             // 
             this.columnHeader6.Text = "Tipo";
-            this.columnHeader6.Width = 161;
+            this.columnHeader6.Width = 100;
             // 
             // dateTimePicker1
             // 
+            this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.DarkOrange;
             this.dateTimePicker1.Location = new System.Drawing.Point(314, 242);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(258, 20);
             this.dateTimePicker1.TabIndex = 12;
             // 
-            // btnSalvar
+            // btn_Salvar
             // 
-            this.btnSalvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSalvar.Location = new System.Drawing.Point(656, 353);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(115, 54);
-            this.btnSalvar.TabIndex = 13;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            this.btn_Salvar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btn_Salvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salvar.ForeColor = System.Drawing.Color.DarkViolet;
+            this.btn_Salvar.Location = new System.Drawing.Point(667, 259);
+            this.btn_Salvar.Name = "btn_Salvar";
+            this.btn_Salvar.Size = new System.Drawing.Size(115, 54);
+            this.btn_Salvar.TabIndex = 13;
+            this.btn_Salvar.Text = "Salvar";
+            this.btn_Salvar.UseVisualStyleBackColor = false;
+            this.btn_Salvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // rbnAssistindo
+            // btn_Sair
             // 
-            this.rbnAssistindo.AutoSize = true;
-            this.rbnAssistindo.Location = new System.Drawing.Point(48, 63);
-            this.rbnAssistindo.Name = "rbnAssistindo";
-            this.rbnAssistindo.Size = new System.Drawing.Size(100, 24);
-            this.rbnAssistindo.TabIndex = 3;
-            this.rbnAssistindo.TabStop = true;
-            this.rbnAssistindo.Text = "Assistindo";
-            this.rbnAssistindo.UseVisualStyleBackColor = true;
-            this.rbnAssistindo.CheckedChanged += new System.EventHandler(this.rbnAssistido_CheckedChanged);
+            this.btn_Sair.BackColor = System.Drawing.Color.DarkOrange;
+            this.btn_Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Sair.ForeColor = System.Drawing.Color.DarkViolet;
+            this.btn_Sair.Location = new System.Drawing.Point(667, 350);
+            this.btn_Sair.Name = "btn_Sair";
+            this.btn_Sair.Size = new System.Drawing.Size(115, 54);
+            this.btn_Sair.TabIndex = 14;
+            this.btn_Sair.Text = "Sair";
+            this.btn_Sair.UseVisualStyleBackColor = false;
+            this.btn_Sair.Click += new System.EventHandler(this.btn_Sair_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkViolet;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btn_Sair);
+            this.Controls.Add(this.btn_Salvar);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.listViewCadastro);
             this.Controls.Add(this.groupBox_situacao);
@@ -326,8 +368,9 @@
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btn_Salvar;
         private System.Windows.Forms.RadioButton rbnAssistindo;
+        private System.Windows.Forms.Button btn_Sair;
     }
 }
 
