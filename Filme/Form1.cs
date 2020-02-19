@@ -35,7 +35,6 @@ namespace Filme
                 rbnAssistido = rbn;
             }
         }
-
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             listitem = listViewCadastro.Items.Add(txt_Autor.Text);
@@ -45,12 +44,10 @@ namespace Filme
             listitem.SubItems.Add(rbnAssistido.Text);
             listitem.SubItems.Add(rbnFilme.Text);
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
 
         }
-
         private void btn_Sair_Click(object sender, EventArgs e)
         {
             this.Close();          
