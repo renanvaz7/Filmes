@@ -62,7 +62,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkOrange;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkViolet;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(187, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(446, 37);
@@ -75,18 +75,18 @@
             this.groupBox_Tipo.Controls.Add(this.rbnFilme);
             this.groupBox_Tipo.Controls.Add(this.rbnSerie);
             this.groupBox_Tipo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox_Tipo.ForeColor = System.Drawing.Color.DarkOrange;
-            this.groupBox_Tipo.Location = new System.Drawing.Point(12, 107);
+            this.groupBox_Tipo.ForeColor = System.Drawing.Color.White;
+            this.groupBox_Tipo.Location = new System.Drawing.Point(428, 227);
             this.groupBox_Tipo.Name = "groupBox_Tipo";
-            this.groupBox_Tipo.Size = new System.Drawing.Size(176, 81);
+            this.groupBox_Tipo.Size = new System.Drawing.Size(200, 81);
             this.groupBox_Tipo.TabIndex = 1;
             this.groupBox_Tipo.TabStop = false;
-            this.groupBox_Tipo.Text = "Tipo:";
+            this.groupBox_Tipo.Text = "Categoria:";
             // 
             // rbnFilme
             // 
             this.rbnFilme.AutoSize = true;
-            this.rbnFilme.ForeColor = System.Drawing.Color.DarkOrange;
+            this.rbnFilme.ForeColor = System.Drawing.Color.White;
             this.rbnFilme.Location = new System.Drawing.Point(6, 32);
             this.rbnFilme.Name = "rbnFilme";
             this.rbnFilme.Size = new System.Drawing.Size(65, 24);
@@ -99,7 +99,7 @@
             // rbnSerie
             // 
             this.rbnSerie.AutoSize = true;
-            this.rbnSerie.ForeColor = System.Drawing.Color.DarkOrange;
+            this.rbnSerie.ForeColor = System.Drawing.Color.White;
             this.rbnSerie.Location = new System.Drawing.Point(106, 32);
             this.rbnSerie.Name = "rbnSerie";
             this.rbnSerie.Size = new System.Drawing.Size(64, 24);
@@ -113,8 +113,8 @@
             // 
             this.label_genero.AutoSize = true;
             this.label_genero.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_genero.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label_genero.Location = new System.Drawing.Point(190, 207);
+            this.label_genero.ForeColor = System.Drawing.Color.White;
+            this.label_genero.Location = new System.Drawing.Point(14, 206);
             this.label_genero.Name = "label_genero";
             this.label_genero.Size = new System.Drawing.Size(67, 20);
             this.label_genero.TabIndex = 2;
@@ -122,8 +122,8 @@
             // 
             // txt_Autor
             // 
-            this.txt_Autor.BackColor = System.Drawing.Color.DarkOrange;
-            this.txt_Autor.Location = new System.Drawing.Point(314, 170);
+            this.txt_Autor.BackColor = System.Drawing.Color.White;
+            this.txt_Autor.Location = new System.Drawing.Point(129, 288);
             this.txt_Autor.Name = "txt_Autor";
             this.txt_Autor.Size = new System.Drawing.Size(258, 20);
             this.txt_Autor.TabIndex = 3;
@@ -132,8 +132,8 @@
             // 
             this.label_Nome.AutoSize = true;
             this.label_Nome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Nome.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label_Nome.Location = new System.Drawing.Point(190, 276);
+            this.label_Nome.ForeColor = System.Drawing.Color.White;
+            this.label_Nome.Location = new System.Drawing.Point(14, 171);
             this.label_Nome.Name = "label_Nome";
             this.label_Nome.Size = new System.Drawing.Size(55, 20);
             this.label_Nome.TabIndex = 4;
@@ -141,8 +141,8 @@
             // 
             // txt_genero
             // 
-            this.txt_genero.BackColor = System.Drawing.Color.DarkOrange;
-            this.txt_genero.Location = new System.Drawing.Point(314, 209);
+            this.txt_genero.BackColor = System.Drawing.Color.White;
+            this.txt_genero.Location = new System.Drawing.Point(129, 208);
             this.txt_genero.Name = "txt_genero";
             this.txt_genero.Size = new System.Drawing.Size(258, 20);
             this.txt_genero.TabIndex = 5;
@@ -151,8 +151,8 @@
             // 
             this.label_Autor.AutoSize = true;
             this.label_Autor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Autor.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label_Autor.Location = new System.Drawing.Point(190, 168);
+            this.label_Autor.ForeColor = System.Drawing.Color.White;
+            this.label_Autor.Location = new System.Drawing.Point(17, 288);
             this.label_Autor.Name = "label_Autor";
             this.label_Autor.Size = new System.Drawing.Size(52, 20);
             this.label_Autor.TabIndex = 6;
@@ -160,8 +160,8 @@
             // 
             // txt_Nome
             // 
-            this.txt_Nome.BackColor = System.Drawing.Color.DarkOrange;
-            this.txt_Nome.Location = new System.Drawing.Point(314, 278);
+            this.txt_Nome.BackColor = System.Drawing.Color.White;
+            this.txt_Nome.Location = new System.Drawing.Point(129, 173);
             this.txt_Nome.Name = "txt_Nome";
             this.txt_Nome.Size = new System.Drawing.Size(258, 20);
             this.txt_Nome.TabIndex = 8;
@@ -170,8 +170,8 @@
             // 
             this.label_lancamento.AutoSize = true;
             this.label_lancamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_lancamento.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label_lancamento.Location = new System.Drawing.Point(190, 242);
+            this.label_lancamento.ForeColor = System.Drawing.Color.White;
+            this.label_lancamento.Location = new System.Drawing.Point(14, 248);
             this.label_lancamento.Name = "label_lancamento";
             this.label_lancamento.Size = new System.Drawing.Size(102, 20);
             this.label_lancamento.TabIndex = 9;
@@ -184,10 +184,10 @@
             this.groupBox_situacao.Controls.Add(this.rbnAssistido);
             this.groupBox_situacao.Controls.Add(this.rbnDesejo);
             this.groupBox_situacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox_situacao.ForeColor = System.Drawing.Color.DarkOrange;
-            this.groupBox_situacao.Location = new System.Drawing.Point(588, 107);
+            this.groupBox_situacao.ForeColor = System.Drawing.Color.White;
+            this.groupBox_situacao.Location = new System.Drawing.Point(428, 109);
             this.groupBox_situacao.Name = "groupBox_situacao";
-            this.groupBox_situacao.Size = new System.Drawing.Size(200, 112);
+            this.groupBox_situacao.Size = new System.Drawing.Size(200, 111);
             this.groupBox_situacao.TabIndex = 10;
             this.groupBox_situacao.TabStop = false;
             this.groupBox_situacao.Text = "Situação";
@@ -195,8 +195,8 @@
             // rbnAssistindo
             // 
             this.rbnAssistindo.AutoSize = true;
-            this.rbnAssistindo.ForeColor = System.Drawing.Color.DarkOrange;
-            this.rbnAssistindo.Location = new System.Drawing.Point(48, 63);
+            this.rbnAssistindo.ForeColor = System.Drawing.Color.White;
+            this.rbnAssistindo.Location = new System.Drawing.Point(50, 62);
             this.rbnAssistindo.Name = "rbnAssistindo";
             this.rbnAssistindo.Size = new System.Drawing.Size(100, 24);
             this.rbnAssistindo.TabIndex = 3;
@@ -208,7 +208,7 @@
             // rbnAssistido
             // 
             this.rbnAssistido.AutoSize = true;
-            this.rbnAssistido.ForeColor = System.Drawing.Color.DarkOrange;
+            this.rbnAssistido.ForeColor = System.Drawing.Color.White;
             this.rbnAssistido.Location = new System.Drawing.Point(6, 32);
             this.rbnAssistido.Name = "rbnAssistido";
             this.rbnAssistido.Size = new System.Drawing.Size(91, 24);
@@ -221,7 +221,7 @@
             // rbnDesejo
             // 
             this.rbnDesejo.AutoSize = true;
-            this.rbnDesejo.ForeColor = System.Drawing.Color.DarkOrange;
+            this.rbnDesejo.ForeColor = System.Drawing.Color.White;
             this.rbnDesejo.Location = new System.Drawing.Point(117, 32);
             this.rbnDesejo.Name = "rbnDesejo";
             this.rbnDesejo.Size = new System.Drawing.Size(77, 24);
@@ -233,7 +233,7 @@
             // 
             // listViewCadastro
             // 
-            this.listViewCadastro.BackColor = System.Drawing.Color.DarkOrange;
+            this.listViewCadastro.BackColor = System.Drawing.Color.White;
             this.listViewCadastro.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
@@ -243,9 +243,9 @@
             this.columnHeader6});
             this.listViewCadastro.ForeColor = System.Drawing.Color.DarkViolet;
             this.listViewCadastro.HideSelection = false;
-            this.listViewCadastro.Location = new System.Drawing.Point(44, 324);
+            this.listViewCadastro.Location = new System.Drawing.Point(18, 324);
             this.listViewCadastro.Name = "listViewCadastro";
-            this.listViewCadastro.Size = new System.Drawing.Size(600, 114);
+            this.listViewCadastro.Size = new System.Drawing.Size(764, 114);
             this.listViewCadastro.TabIndex = 11;
             this.listViewCadastro.UseCompatibleStateImageBehavior = false;
             this.listViewCadastro.View = System.Windows.Forms.View.Details;
@@ -253,7 +253,7 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "Autor";
-            this.columnHeader1.Width = 100;
+            this.columnHeader1.Width = 150;
             // 
             // columnHeader2
             // 
@@ -263,7 +263,7 @@
             // columnHeader3
             // 
             this.columnHeader3.Text = "Lançamento";
-            this.columnHeader3.Width = 100;
+            this.columnHeader3.Width = 200;
             // 
             // columnHeader4
             // 
@@ -277,23 +277,23 @@
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "Tipo";
-            this.columnHeader6.Width = 100;
+            this.columnHeader6.Text = "Categoria";
+            this.columnHeader6.Width = 120;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarTitleForeColor = System.Drawing.Color.DarkOrange;
-            this.dateTimePicker1.Location = new System.Drawing.Point(314, 242);
+            this.dateTimePicker1.Location = new System.Drawing.Point(129, 248);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(258, 20);
             this.dateTimePicker1.TabIndex = 12;
             // 
             // btn_Salvar
             // 
-            this.btn_Salvar.BackColor = System.Drawing.Color.DarkOrange;
+            this.btn_Salvar.BackColor = System.Drawing.Color.White;
             this.btn_Salvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Salvar.ForeColor = System.Drawing.Color.DarkViolet;
-            this.btn_Salvar.Location = new System.Drawing.Point(667, 259);
+            this.btn_Salvar.Location = new System.Drawing.Point(667, 124);
             this.btn_Salvar.Name = "btn_Salvar";
             this.btn_Salvar.Size = new System.Drawing.Size(115, 54);
             this.btn_Salvar.TabIndex = 13;
@@ -303,10 +303,10 @@
             // 
             // btn_Sair
             // 
-            this.btn_Sair.BackColor = System.Drawing.Color.DarkOrange;
+            this.btn_Sair.BackColor = System.Drawing.Color.White;
             this.btn_Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Sair.ForeColor = System.Drawing.Color.DarkViolet;
-            this.btn_Sair.Location = new System.Drawing.Point(667, 350);
+            this.btn_Sair.Location = new System.Drawing.Point(667, 227);
             this.btn_Sair.Name = "btn_Sair";
             this.btn_Sair.Size = new System.Drawing.Size(115, 54);
             this.btn_Sair.TabIndex = 14;

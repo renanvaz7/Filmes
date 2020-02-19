@@ -19,21 +19,12 @@ namespace Filme
         {
             InitializeComponent();
         }
-        public void SetTipo()
-        {
-
-        }
-        public void SetSituacao()
-        {
-
-        }
         private void rbnFilme_CheckedChanged(object sender, EventArgs e)
         {
             RadioButton rbn = (RadioButton)sender;
             if (rbn.Checked)
             {
-                rbnFilme = rbn;
-                SetTipo();
+                rbnFilme = rbn;               
             }
         }
         private void rbnAssistido_CheckedChanged(object sender, EventArgs e)
@@ -42,7 +33,6 @@ namespace Filme
             if (rbn.Checked)
             {
                 rbnAssistido = rbn;
-                SetSituacao();
             }
         }
 
@@ -51,7 +41,7 @@ namespace Filme
             listitem = listViewCadastro.Items.Add(txt_Autor.Text);
             listitem.SubItems.Add(txt_genero.Text);
             listitem.SubItems.Add(dateTimePicker1.Text);
-            listitem.SubItems.Add(txt_Autor.Text);
+            listitem.SubItems.Add(txt_Nome.Text);
             listitem.SubItems.Add(rbnAssistido.Text);
             listitem.SubItems.Add(rbnFilme.Text);
         }
@@ -63,7 +53,7 @@ namespace Filme
 
         private void btn_Sair_Click(object sender, EventArgs e)
         {
-            this.Close();
+            this.Close();          
         }
     }
 }
