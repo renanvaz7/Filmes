@@ -43,7 +43,7 @@
             this.rbnAssistindo = new System.Windows.Forms.RadioButton();
             this.rbnAssistido = new System.Windows.Forms.RadioButton();
             this.rbnDesejo = new System.Windows.Forms.RadioButton();
-            this.listViewCadastro = new System.Windows.Forms.ListView();
+            this.listViewFilmes = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -52,7 +52,8 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.btn_Salvar = new System.Windows.Forms.Button();
-            this.btn_Sair = new System.Windows.Forms.Button();
+            this.btnDeletar = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
             this.groupBox_Tipo.SuspendLayout();
             this.groupBox_situacao.SuspendLayout();
             this.SuspendLayout();
@@ -231,24 +232,24 @@
             this.rbnDesejo.UseVisualStyleBackColor = true;
             this.rbnDesejo.CheckedChanged += new System.EventHandler(this.rbnAssistido_CheckedChanged);
             // 
-            // listViewCadastro
+            // listViewFilmes
             // 
-            this.listViewCadastro.BackColor = System.Drawing.Color.White;
-            this.listViewCadastro.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.listViewFilmes.BackColor = System.Drawing.Color.White;
+            this.listViewFilmes.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
             this.columnHeader2,
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6});
-            this.listViewCadastro.ForeColor = System.Drawing.Color.DarkViolet;
-            this.listViewCadastro.HideSelection = false;
-            this.listViewCadastro.Location = new System.Drawing.Point(18, 324);
-            this.listViewCadastro.Name = "listViewCadastro";
-            this.listViewCadastro.Size = new System.Drawing.Size(764, 114);
-            this.listViewCadastro.TabIndex = 11;
-            this.listViewCadastro.UseCompatibleStateImageBehavior = false;
-            this.listViewCadastro.View = System.Windows.Forms.View.Details;
+            this.listViewFilmes.ForeColor = System.Drawing.Color.DarkViolet;
+            this.listViewFilmes.HideSelection = false;
+            this.listViewFilmes.Location = new System.Drawing.Point(18, 324);
+            this.listViewFilmes.Name = "listViewFilmes";
+            this.listViewFilmes.Size = new System.Drawing.Size(764, 114);
+            this.listViewFilmes.TabIndex = 11;
+            this.listViewFilmes.UseCompatibleStateImageBehavior = false;
+            this.listViewFilmes.View = System.Windows.Forms.View.Details;
             // 
             // columnHeader1
             // 
@@ -291,7 +292,7 @@
             // btn_Salvar
             // 
             this.btn_Salvar.BackColor = System.Drawing.Color.White;
-            this.btn_Salvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Salvar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Salvar.ForeColor = System.Drawing.Color.DarkViolet;
             this.btn_Salvar.Location = new System.Drawing.Point(667, 124);
             this.btn_Salvar.Name = "btn_Salvar";
@@ -301,18 +302,31 @@
             this.btn_Salvar.UseVisualStyleBackColor = false;
             this.btn_Salvar.Click += new System.EventHandler(this.btnSalvar_Click);
             // 
-            // btn_Sair
+            // btnDeletar
             // 
-            this.btn_Sair.BackColor = System.Drawing.Color.White;
-            this.btn_Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Sair.ForeColor = System.Drawing.Color.DarkViolet;
-            this.btn_Sair.Location = new System.Drawing.Point(667, 227);
-            this.btn_Sair.Name = "btn_Sair";
-            this.btn_Sair.Size = new System.Drawing.Size(115, 54);
-            this.btn_Sair.TabIndex = 14;
-            this.btn_Sair.Text = "Sair";
-            this.btn_Sair.UseVisualStyleBackColor = false;
-            this.btn_Sair.Click += new System.EventHandler(this.btn_Sair_Click);
+            this.btnDeletar.BackColor = System.Drawing.Color.White;
+            this.btnDeletar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeletar.ForeColor = System.Drawing.Color.DarkViolet;
+            this.btnDeletar.Location = new System.Drawing.Point(667, 190);
+            this.btnDeletar.Name = "btnDeletar";
+            this.btnDeletar.Size = new System.Drawing.Size(115, 54);
+            this.btnDeletar.TabIndex = 14;
+            this.btnDeletar.Text = "Deletar";
+            this.btnDeletar.UseVisualStyleBackColor = false;
+            this.btnDeletar.Click += new System.EventHandler(this.btnDeletar_Click);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.BackColor = System.Drawing.Color.White;
+            this.btnLimpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.ForeColor = System.Drawing.Color.DarkViolet;
+            this.btnLimpar.Location = new System.Drawing.Point(667, 256);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(115, 52);
+            this.btnLimpar.TabIndex = 15;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = false;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // Form1
             // 
@@ -320,10 +334,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkViolet;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.btn_Sair);
+            this.Controls.Add(this.btnLimpar);
+            this.Controls.Add(this.btnDeletar);
             this.Controls.Add(this.btn_Salvar);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.listViewCadastro);
+            this.Controls.Add(this.listViewFilmes);
             this.Controls.Add(this.groupBox_situacao);
             this.Controls.Add(this.label_lancamento);
             this.Controls.Add(this.txt_Nome);
@@ -360,7 +375,7 @@
         private System.Windows.Forms.Label label_lancamento;
         private System.Windows.Forms.GroupBox groupBox_situacao;
         private System.Windows.Forms.RadioButton rbnDesejo;
-        private System.Windows.Forms.ListView listViewCadastro;
+        private System.Windows.Forms.ListView listViewFilmes;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
@@ -370,7 +385,8 @@
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.Button btn_Salvar;
         private System.Windows.Forms.RadioButton rbnAssistindo;
-        private System.Windows.Forms.Button btn_Sair;
+        private System.Windows.Forms.Button btnDeletar;
+        private System.Windows.Forms.Button btnLimpar;
     }
 }
 

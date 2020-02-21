@@ -37,7 +37,7 @@ namespace Filme
         }
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            listitem = listViewCadastro.Items.Add(txt_Autor.Text);
+            listitem = listViewFilmes.Items.Add(txt_Autor.Text);
             listitem.SubItems.Add(txt_genero.Text);
             listitem.SubItems.Add(dateTimePicker1.Text);
             listitem.SubItems.Add(txt_Nome.Text);
@@ -48,9 +48,15 @@ namespace Filme
         {
 
         }
-        private void btn_Sair_Click(object sender, EventArgs e)
+
+        private void btnDeletar_Click(object sender, EventArgs e)
         {
-            this.Close();          
+            listViewFilmes.Items.Remove(listViewFilmes.SelectedItems[0]);
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            listViewFilmes.Items.Clear();
         }
     }
 }
